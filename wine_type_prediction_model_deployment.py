@@ -43,7 +43,7 @@ df=pd.DataFrame({
 
 })
 
-if st.button("Predict Wine Type ",color="blue"):
+if st.button("Predict Wine Type "):
   prediction=model.predict(df)[0]
   if prediction==0:
     st.write("Red wine")
