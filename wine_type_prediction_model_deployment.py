@@ -28,13 +28,13 @@ alcohol=st.number_input("Alcohol")
 quality=st.number_input("Quality")
 
 df=pd.DataFrame({
-    "fixed_acidity":[fixed_acidity],
-    "volatile_acidity":[volatile_acidity],
-    "citric_acid":[citric_acid],
-    "residual_sugar":[residual_sugar],
+    "fixed acidity":[fixed_acidity],
+    "volatile acidity":[volatile_acidity],
+    "citric acid":[citric_acid],
+    "residual sugar":[residual_sugar],
     "chlorides":[chlorides],
-    "free_sulfur_dioxide":[free_sulfur_dioxide],
-    "total_sulfur_dioxide":[total_sulfur_dioxide],
+    "free sulfur dioxide":[free_sulfur_dioxide],
+    "total sulfur dioxide":[total_sulfur_dioxide],
     "density":[density],
     "pH":[pH],
     "sulphates":[sulphates],
